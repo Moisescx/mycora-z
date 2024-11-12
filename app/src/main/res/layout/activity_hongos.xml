@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradients_background"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="364dp"
+        android:layout_height="670dp"
+        app:cardBackgroundColor="#ECEFF1"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/etNombre1"
+                android:layout_width="242dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="Nombre"
+                android:textColorHint="@color/material_dynamic_primary10"
+                android:textColor="@color/black"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <EditText
+                android:id="@+id/etcDesc1"
+                android:layout_width="242dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="Descripcion"
+                android:textColorHint="@color/material_dynamic_primary10"
+                android:textColor="@color/black"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etNombre1" />
+
+            <Button
+                android:id="@+id/btnAgre1"
+                android:layout_width="165dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="36dp"
+                android:backgroundTint="@color/white"
+                android:text="Agregar"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etTipo1" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="131dp"
+                android:layout_height="178dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/registro" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="80dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/fuente"
+                android:text="Publicar"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <EditText
+                android:id="@+id/etTipo1"
+                android:layout_width="242dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="Tipo"
+                android:textColorHint="@color/material_dynamic_primary10"
+                android:textColor="@color/black"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etcDesc1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

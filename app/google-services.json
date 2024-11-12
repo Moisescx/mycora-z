@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "924069898555",
+    "project_id": "mycoraiz",
+    "storage_bucket": "mycoraiz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924069898555:android:b225d68ae124a50ae7af1e",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQbjAoT8u__eS60QNxi82rgUKaFDAaCHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
