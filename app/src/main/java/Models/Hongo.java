@@ -5,7 +5,6 @@ public class Hongo {
     private String descripcion;
     private String tipo;
 
-    // Constructor vacío requerido para Firebase
     public Hongo() {
     }
 
