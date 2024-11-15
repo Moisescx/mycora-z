@@ -13,6 +13,9 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+        renderscriptTargetApi = 21
+        renderscriptSupportModeEnabled
+        true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
